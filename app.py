@@ -9,8 +9,8 @@ import os
 from werkzeug.security import generate_password_hash, check_password_hash
 
 # Connection with mongodb atlas
-# client = MongoClient('mongodb://localhost:27017')
-client = MongoClient('mongodb+srv://gaja:gaja123@cluster0.jdoybcv.mongodb.net/blueimpulsedemo')
+client = MongoClient('mongodb://localhost:27017')
+#client = MongoClient('mongodb+srv://gaja:gaja123@cluster0.jdoybcv.mongodb.net/blueimpulsedemo')
 db = client.blueimpulsedemo
 
 app=Flask(__name__)
